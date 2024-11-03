@@ -34,6 +34,13 @@ No código, usamos ele para transformar a entrada do usuário (string separada p
 ```JavaScript
 const valoresValidos = valorInput.split(',').map(valor => parseFloat(valor.trim()));
 ```
+<hr>
+
+
+```JavaScript
+.filter(valor => !isNaN(valor) && valor > 0);
+```
+
 
 ## Como Funciona
 O conversor de moedas utiliza uma taxa de câmbio fixa para simular a conversão entre as moedas. Quando o usuário insere um valor, o sistema valida a entrada e realiza a conversão.
