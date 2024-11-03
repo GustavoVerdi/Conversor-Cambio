@@ -43,8 +43,8 @@ No código, usamos ele para filtra o array resultante de map() para incluir apen
 .filter(valor => !isNaN(valor) && valor > 0);
 ```
 
-```!isNaN(valor)``` verifica se valor é um número válido (não ```NaN```).
-```valor > 0``` garante que apenas valores positivos sejam incluídos.
+```!isNaN(valor)``` verifica se valor é um número válido (não ```NaN```).<br/>
+```valor > 0``` garante que apenas valores positivos sejam incluídos.<br/>
 O resultado é um array ```valoresValidos``` que contém apenas números positivos que foram convertidos corretamente a partir da entrada do usuário.
 
 ## Como Funciona
