@@ -20,6 +20,7 @@ Este projeto é um conversor de moedas que permite a conversão entre Real (BRL)
    ```
    git clone https://github.com/GustavoVerdi/Conversor-Cambio
 2. **Acesse o diretório do projeto:**
+
 Abra o arquivo index.html em seu navegador: Clique duas vezes no arquivo ou use o menu de arquivos do seu navegador.
 
 ## Como Funciona
