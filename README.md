@@ -28,6 +28,8 @@ Abra o arquivo index.html em seu navegador: Clique duas vezes no arquivo ou use 
 
 ## Funções
 
+O método ```JavaScript .map() ```é usado para criar um novo array aplicando uma função a cada elemento do array original. No código, é usado para transformar a entrada do usuário (string separada por vírgulas) em um array de números de ponto flutuante.
+
 ```JavaScript
 const valoresValidos = valorInput.split(',').map(valor => parseFloat(valor.trim()));
 ```
