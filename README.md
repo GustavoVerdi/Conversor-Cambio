@@ -40,4 +40,4 @@ Saída:
 Valor convertido: 200.00 (considerando uma taxa de câmbio fictícia de 2.0)
 
 ## Membros do Grupo
-@GustavoVerdi
+@GustavoVerdi @Henrikygustavo
