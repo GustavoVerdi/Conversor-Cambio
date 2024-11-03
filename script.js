@@ -1,4 +1,3 @@
-
 function trocarMoedas() {
     const moedaOrigem = document.getElementById('moedaOrigem');
     const moedaDestino = document.getElementById('moedaDestino');
