@@ -41,7 +41,7 @@ const valoresValidos = valorInput.split(',').map(valor => parseFloat(valor.trim(
 <hr>
 
 O método ``` .filter() ``` é usado para criar um novo array contendo apenas elementos que satisfazem uma condição específica.<br/> 
-No código, usamos ele para filtra o array resultante de map() para incluir apenas valores numéricos positivos.
+No código, usamos ele para filtra o array resultante de ```map()``` para incluir apenas valores numéricos positivos.
 
 ```JavaScript
 .filter(valor => !isNaN(valor) && valor > 0);
