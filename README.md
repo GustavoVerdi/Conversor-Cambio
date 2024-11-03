@@ -19,7 +19,7 @@ Este projeto é um conversor de moedas que permite a conversão entre Real (BRL)
    
 No VScode abra um terminal de Gitbash, utilize o comando CD para selecionar o local de instalação do repositorio, ao chegar na pasta onde deseja instalar o repositorio, execute o comando abaixo,
 
-```
+```Bash
 git clone https://github.com/GustavoVerdi/Conversor-Cambio
 ```
 2. **Acesse o diretório do projeto:**
