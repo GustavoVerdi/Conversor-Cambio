@@ -52,10 +52,10 @@ No código, usamos ele para filtra o array resultante de ```map()``` para inclui
 O resultado é um array ```valoresValidos``` que contém apenas números positivos que foram convertidos corretamente a partir da entrada do usuário.
 
 ## Como Funciona
-O conversor de moedas utiliza uma taxa de câmbio fixa para simular a conversão entre as moedas. Quando o usuário insere um valor, o sistema valida a entrada e realiza a conversão.
+O conversor de moedas utiliza uma taxa de câmbio para simular a conversão entre as moedas. Quando o usuário insere um valor, o sistema valida a entrada e realiza a conversão.
 
 ## Programação Funcional
-O código faz uso de funções de ordem superior como map, filter, e reduce para gerenciar a lógica da conversão e a validação dos dados de entrada.
+O código faz uso de funções de ordem superior como map e filter, para gerenciar a lógica da conversão e a validação dos dados de entrada.
 
 Exemplos de Entrada e Saída
 Entrada:
