@@ -35,14 +35,12 @@ No código, usamos ele para transformar a entrada do usuário (string separada p
 const valoresValidos = valorInput.split(',').map(valor => parseFloat(valor.trim()));
 ```
 <hr>
-
 O método ```.filter()``` é usado para criar um novo array contendo apenas elementos que satisfazem uma condição específica.<br/> 
-No código, ele filtra o array resultante de map() para incluir apenas valores numéricos positivos.
+No código, usamos ele para filtra o array resultante de map() para incluir apenas valores numéricos positivos.
 
 ```JavaScript
 .filter(valor => !isNaN(valor) && valor > 0);
 ```
-
 
 ## Como Funciona
 O conversor de moedas utiliza uma taxa de câmbio fixa para simular a conversão entre as moedas. Quando o usuário insere um valor, o sistema valida a entrada e realiza a conversão.
