@@ -28,7 +28,7 @@ Abra o arquivo index.html em seu navegador: Clique duas vezes no arquivo ou use 
 
 ## Funções
 
-```bash
+```JavaScript
 const valoresValidos = valorInput.split(',').map(valor => parseFloat(valor.trim()));
 ```
 
