@@ -34,6 +34,9 @@ No código, usamos ele para transformar a entrada do usuário (string separada p
 ```JavaScript
 const valoresValidos = valorInput.split(',').map(valor => parseFloat(valor.trim()));
 ```
+```valorInput.split(',')``` divide a string ```valorInput``` em um array de substrings com base nas vírgulas.<br/>
+```.map(valor => parseFloat(valor.trim()))``` percorre cada substring, aplica ```parseFloat()``` após remover espaços em branco com ```.trim()```, e retorna um novo array de valores numéricos (ou ```NaN``` se a conversão falhar).
+
 <hr>
 
 O método ``` .filter() ``` é usado para criar um novo array contendo apenas elementos que satisfazem uma condição específica.<br/> 
