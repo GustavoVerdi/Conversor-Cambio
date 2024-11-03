@@ -20,12 +20,36 @@ Este projeto é um conversor de moedas que permite a conversão entre Real (BRL)
    
 No VScode abra um terminal de Gitbash, utilize o comando CD para selecionar o local de instalação do repositorio, ao chegar na pasta onde deseja instalar o repositorio, execute o comando abaixo,
 
-```
+```Bash
 git clone https://github.com/GustavoVerdi/Conversor-Cambio
 ```
 2. **Acesse o diretório do projeto:**
 
 Abra o arquivo index.html em seu navegador: Clique duas vezes no arquivo ou use o menu de arquivos do seu navegador.
+
+## Funções
+
+O método ```.map()```é usado para criar um novo array aplicando uma função a cada elemento do array original.<br/>
+No código, usamos ele para transformar a entrada do usuário (string separada por vírgulas) em um array de números de ponto flutuante.
+
+```JavaScript
+const valoresValidos = valorInput.split(',').map(valor => parseFloat(valor.trim()));
+```
+```valorInput.split(',')``` divide a string ```valorInput``` em um array de substrings com base nas vírgulas.<br/>
+```.map(valor => parseFloat(valor.trim()))``` percorre cada substring, aplica ```parseFloat()``` após remover espaços em branco com ```.trim()```, e retorna um novo array de valores numéricos (ou ```NaN``` se a conversão falhar).
+
+<hr>
+
+O método ``` .filter() ``` é usado para criar um novo array contendo apenas elementos que satisfazem uma condição específica.<br/> 
+No código, usamos ele para filtra o array resultante de map() para incluir apenas valores numéricos positivos.
+
+```JavaScript
+.filter(valor => !isNaN(valor) && valor > 0);
+```
+
+```!isNaN(valor)``` verifica se valor é um número válido (não ```NaN```).<br/>
+```valor > 0``` garante que apenas valores positivos sejam incluídos.<br/>
+O resultado é um array ```valoresValidos``` que contém apenas números positivos que foram convertidos corretamente a partir da entrada do usuário.
 
 ## Como Funciona
 O conversor de moedas utiliza uma taxa de câmbio fixa para simular a conversão entre as moedas. Quando o usuário insere um valor, o sistema valida a entrada e realiza a conversão.
