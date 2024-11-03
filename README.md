@@ -28,7 +28,7 @@ Abra o arquivo index.html em seu navegador: Clique duas vezes no arquivo ou use 
 
 ## Funções
 
-O método ```.map()```é usado para criar um novo array aplicando uma função a cada elemento do array original.
+O método ```.map()```é usado para criar um novo array aplicando uma função a cada elemento do array original.<br/>
 No código, usamos ele para transformar a entrada do usuário (string separada por vírgulas) em um array de números de ponto flutuante.
 
 ```JavaScript
