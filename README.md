@@ -15,10 +15,13 @@ Este projeto é um conversor de moedas que permite a conversão entre Real (BRL)
 - **API de Taxas de Câmbio**: Utiliza a [Exchange Rate API](https://open.er-api.com/v6/latest/USD) para obter as taxas de câmbio atualizadas.
 
 ## Como Instalar e Executar
-
 1. **Clone o repositório**:
-   ```
-   git clone https://github.com/GustavoVerdi/Conversor-Cambio
+   
+No VScode abra um terminal de Gitbash, utilize o comando CD para selecionar o local de instalação do repositorio, ao chegar na pasta onde deseja instalar o repositorio, execute o comando abaixo,
+
+```
+git clone https://github.com/GustavoVerdi/Conversor-Cambio
+```
 2. **Acesse o diretório do projeto:**
 
 Abra o arquivo index.html em seu navegador: Clique duas vezes no arquivo ou use o menu de arquivos do seu navegador.
