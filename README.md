@@ -26,6 +26,12 @@ git clone https://github.com/GustavoVerdi/Conversor-Cambio
 
 Abra o arquivo index.html em seu navegador: Clique duas vezes no arquivo ou use o menu de arquivos do seu navegador.
 
+## Funções
+
+```bash
+const valoresValidos = valorInput.split(',').map(valor => parseFloat(valor.trim()));
+```
+
 ## Como Funciona
 O conversor de moedas utiliza uma taxa de câmbio fixa para simular a conversão entre as moedas. Quando o usuário insere um valor, o sistema valida a entrada e realiza a conversão.
 
