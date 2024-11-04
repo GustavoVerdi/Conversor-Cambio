@@ -30,7 +30,7 @@ Abra o arquivo index.html em seu navegador: Clique duas vezes no arquivo ou use 
 Caso estiver utilizando a extensão do LiveServer também irá funcionar, somente executar e acessar o link ```localhost:5500```.
 <hr>
 
-Também podera utilizar o link do [github.io](https://gustavoverdi.github.io/Conversor-Cambio/) para acessar o conversor, encontrado a aba about/sobre.
+Também podera utilizar o link do [github.io](https://gustavoverdi.github.io/Conversor-Cambio/) para acessar o conversor, encontrado na aba about/sobre.
 ## Funções
 
 O método ```.map()```é usado para criar um novo array aplicando uma função a cada elemento do array original.<br/>
