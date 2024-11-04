@@ -28,6 +28,8 @@ git clone https://github.com/GustavoVerdi/Conversor-Cambio
 Abra o arquivo index.html em seu navegador: Clique duas vezes no arquivo ou use o menu de arquivos do seu navegador.
 <br/>
 Caso estiver utilizando a extensão do LiveServer também irá funcionar, somente executar e acessar o link ```localhost:5500```
+<br/>
+Também podera utilizar o link do [github.io](https://gustavoverdi.github.io/Conversor-Cambio/) encontrado a aba about/sobre
 
 ## Funções
 
