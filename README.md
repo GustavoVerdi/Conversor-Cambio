@@ -12,7 +12,7 @@ Este projeto é um conversor de moedas que permite a conversão entre Real (BRL)
 - **HTML**: Para a estruturação da página.
 - **CSS**: Para o estilo e layout da aplicação.
 - **JavaScript**: Para a lógica do conversor de moedas e interações com a API.
-- **API de Taxas de Câmbio**: Utiliza a [Exchange Rate API](https://open.er-api.com/v6/latest/USD) para obter as taxas de câmbio atualizadas.
+- **API de Taxas de Câmbio**: Utiliza a [Exchange Rate API](https://open.er-api.com/v6/latest/USD) para obter as taxas de câmbio atualizadas a da 24 horas.
 
 ## Como Instalar e Executar
 
